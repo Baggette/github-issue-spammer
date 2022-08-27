@@ -3,7 +3,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install gh
     
 echo "Have you configured gh yet? y/n"
 read y
-if $y == "y"
+if $y == "n"
     then 
         echo "It is reccomened to have a personal access token ready"
         sleep 2
@@ -12,7 +12,7 @@ if $y == "y"
         echo "Please rerun the script"
         sleep 2
         fi
-else if $y == "n"
+else if $y == "y"
     then
         while true
         do
