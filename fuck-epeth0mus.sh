@@ -12,7 +12,7 @@ if $y == "n"
         echo "Please rerun the script"
         sleep 2
         fi
-else if $y == "y"
+if $y == "y"
     then
         while true
         do
