@@ -19,6 +19,3 @@ if $y == "y"
             gh issue create --repo https://github.com/Baggette/fuck-epeth0mus --title "test"
             sleep 10
         done
-
-
-        
