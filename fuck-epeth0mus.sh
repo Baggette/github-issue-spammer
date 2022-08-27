@@ -11,8 +11,7 @@ if [[$y == "n"]]; then
         echo "Please rerun the script"
         sleep 2
         fi
-else
-    then
+elif [[$y == "y"]]; then
         while true
         do
             gh issue create --repo https://github.com/Baggette/fuck-epeth0mus --title "test"
