@@ -15,7 +15,20 @@ if [[ $y == "n" ]]; then
 elif [[ $y == "y" ]]; then
         while true
         do
-            gh issue create --repo https://github.com/Baggette/fuck-epeth0mus --title "test2" -b ""
-            sleep 10
+            gh issue create --repo https://github.com/epeth0mus/cheyote --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/Fugu16 --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/Fugu15 --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/ios-15-15.1.1-jailbreak --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/undecimus-mod --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/desc_race --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/iomfb-exploit --title "Fake jailbreak do not use this" -b ""
+            sleep 12
+            gh issue create --repo https://github.com/epeth0mus/checkra1n-mod --title "Fake jailbreak do not use this" -b ""
         done
 fi
