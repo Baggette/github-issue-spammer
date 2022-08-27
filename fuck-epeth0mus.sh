@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env
 sudo apt update && sudo apt upgrade -y && sudo apt install gh
     
 echo "Have you configured gh yet? y/n"
