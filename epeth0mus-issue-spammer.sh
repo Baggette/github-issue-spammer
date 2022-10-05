@@ -16,20 +16,15 @@ if [ "$y" != "y" ]; then
 elif [ "$y" = "y" ]; then
         while true
         do
+            sleep 15
             gh issue create --repo https://github.com/epeth0mus/cheyote --title "Fake jailbreak do not use this" -b ""
-            sleep 10
+            sleep 15
             gh issue create --repo https://github.com/epeth0mus/Fugu16 --title "Fake jailbreak do not use this" -b ""
-            sleep 10
+            sleep 15
             gh issue create --repo https://github.com/epeth0mus/Fugu15 --title "Fake jailbreak do not use this" -b ""
-            sleep 10
-            #gh issue create --repo https://github.com/epeth0mus/ios-15-15.1.1-jailbreak --title "Fake jailbreak do not use this" -b ""
-            #sleep 12
-            gh issue create --repo https://github.com/epeth0mus/undecimus-mod --title "Fake jailbreak do not use this" -b ""
-            sleep 10
-            #gh issue create --repo https://github.com/epeth0mus/desc_race --title "Fake jailbreak do not use this" -b ""
-            #sleep 12
-            #gh issue create --repo https://github.com/epeth0mus/iomfb-exploit --title "Fake jailbreak do not use this" -b ""
-            #sleep 12
+            sleep 15
             gh issue create --repo https://github.com/epeth0mus/checkra1n-mod --title "Fake jailbreak do not use this" -b ""
+            sleep 15
+            gh issue create --repo https://github.com/epeth0mus/palera1n16 --title "Fake Jailbreak do not use this" -b "You absolutely suck epethomus"
         done
 fi
