@@ -3,7 +3,7 @@ if ! command -v gh > /dev/null; then
         echo "gh command not found, please install gh"
         exit 1
 fi
-
+ 
 printf "Have you configured gh yet? y/n "
 read y
 if [ "$y" != "y" ]; then
